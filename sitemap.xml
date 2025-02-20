@@ -1,50 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- Homepage -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.sitemaps.org/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.sitemaps.org/schemas/sitemap-video/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- Sitemap ažuriran za 2025 -->
+    <!-- Cilj: Postati broj 1 u oblasti AI, glasovnih asistenata i pretraživača -->
+    <!-- Prilagođeno za tržište Srbije i globalnu optimizaciju -->
+    <!-- Datum: 2025-02-20 -->
+
+    <!-- Početna stranica - Visoki prioritet -->
     <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/</loc>
-        <lastmod>2025-01-21</lastmod>
+        <loc>https://clairvoyancemedium.github.io/Kako-brzo-pronaci-ljubav.github.io/</loc>
+        <lastmod>2025-02-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="sr" href="https://clairvoyancemedium.github.io/Kako-brzo-pronaci-ljubav.github.io/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://clairvoyancemedium.github.io/Kako-brzo-pronaci-ljubav.github.io/en/" />
     </url>
 
-    <!-- Pricing Page -->
+    <!-- Stranice sa ključnim sadržajem -->
     <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/pricing</loc>
-        <lastmod>2025-01-21</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://clairvoyancemedium.github.io/Kako-brzo-pronaci-ljubav.github.io/rituali-ljubavi/</loc>
+        <lastmod>2025-02-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <!-- Slike za optimizaciju vizuelne pretrage -->
+        <image:image>
+            <image:loc>https://clairvoyancemedium.github.io/Images/Rituel-Magie-Rouge-1.jpg</image:loc>
+            <image:title>Ritual crvene magije za ljubav</image:title>
+            <image:caption>Snažan ritual za povratak ljubavi</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Kako-brzo-pronaci-ljubav.github.io/vidovitost-email/</loc>
+        <lastmod>2025-02-20</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
-    <!-- FAQ Page -->
+    <!-- Stranica sa vestima (ako postoji) -->
     <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/faq</loc>
-        <lastmod>2025-01-21</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-
-    <!-- Blog Section -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/blog</loc>
-        <lastmod>2025-01-21</lastmod>
-        <changefreq>weekly</changefreq>
+        <loc>https://clairvoyancemedium.github.io/Kako-brzo-pronaci-ljubav.github.io/vesti/</loc>
+        <lastmod>2025-02-20</lastmod>
+        <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
 
-    <!-- Individual Blog Post Example -->
+    <!-- Stranica sa video sadržajem (primer) -->
     <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/blog/article1</loc>
-        <lastmod>2025-01-15</lastmod>
+        <loc>https://clairvoyancemedium.github.io/Kako-brzo-pronaci-ljubav.github.io/video-uputstvo/</loc>
+        <lastmod>2025-02-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
+        <!-- Video za glasovnu i vizuelnu pretragu -->
+        <video:video>
+            <video:thumbnail_loc>https://clairvoyancemedium.github.io/Videos/thumbnail-ljubavni-ritual.jpg</video:thumbnail_loc>
+            <video:title>Kako izvesti ljubavni ritual</video:title>
+            <video:description>Vodič za efikasan ljubavni ritual kod kuće</video:description>
+            <video:content_loc>https://clairvoyancemedium.github.io/Videos/ljubavni-ritual.mp4</video:content_loc>
+            <video:duration>300</video:duration> <!-- Trajanje u sekundama (5 min) -->
+            <video:publication_date>2025-02-20</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+        </video:video>
     </url>
 
-    <!-- Contact Page -->
+    <!-- Stranica sa uslovima korišćenja -->
     <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/contact</loc>
-        <lastmod>2025-01-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://clairvoyancemedium.github.io/Kako-brzo-pronaci-ljubav.github.io/uslovi-koriscenja/</loc>
+        <lastmod>2025-02-20</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
     </url>
 </urlset>
