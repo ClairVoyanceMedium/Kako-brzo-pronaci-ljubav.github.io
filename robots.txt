@@ -1,42 +1,54 @@
-# Indique aux robots que toutes les pages peuvent être explorées, sauf restrictions spécifiées
+# Najefikasniji robots.txt za 2025
+# Ažurirano: 2025-02-20
+# Cilj: Postati broj 1 u oblasti AI, glasovnih asistenata i pretraživača
+# Prilagođeno za tržište Srbije i globalnu optimizaciju
+
+# Pravila za sve botove
 User-agent: *
-Disallow: /admin/
-Disallow: /tmp/
-Disallow: /private/
+Disallow: /cgi-bin/         # Sistemski direktorijumi
+Disallow: /tmp/             # Privremeni fajlovi
+Disallow: /private/         # Osetljivi podaci
+Disallow: /admin/           # Administratorske sekcije
+Disallow: /login/           # Stranice za prijavu
+Allow: /                    # Dozvola za ostatak sajta
+Crawl-delay: 5              # Osnovna kontrola opterećenja (podesivo: 2-10 sekundi prema potrebi)
 
-# Bloquer des URL avec paramètres inutiles pour l'indexation
-Disallow: /*?debug=true
-Disallow: /*?preview=true
-
-# Permettre les fichiers nécessaires au bon affichage et fonctionnement
-Allow: /css/
-Allow: /js/
-Allow: /images/
-
-# Référencement des ressources multimédias
-Allow: *.png
-Allow: *.jpg
-Allow: *.webp
-Allow: *.css
-Allow: *.js
-
-# Fournir le chemin du fichier sitemap pour une meilleure indexation
-Sitemap: https://www.clairvoyancemedium.com/sitemap.xml
-
-# Autorisation pour les robots Google et Bing pour maximiser les campagnes publicitaires
+# Specifične dozvole za Google botove
 User-agent: Googlebot
-Allow: /
-User-agent: AdsBot-Google
-Allow: /
-User-agent: Bingbot
+Allow: /Images/             # Prioritet za slike (mobile i glasovna pretraga)
+Allow: /Videos/             # Prioritet za video sadržaj
+Allow: /News/               # Dozvola za vesti
+
+User-agent: Googlebot-Image
+Allow: /Images/
+Disallow: /private/images/
+
+User-agent: Googlebot-Video
+Allow: /Videos/
+Disallow: /private/videos/
+
+User-agent: Mediapartners-Google
 Allow: /
 
-# Bloquer les robots nuisibles ou non désirés
-User-agent: BadBot
+# Podrška za AI asistente
+User-agent: Applebot        # Siri
+Allow: /
+User-agent: Bingbot         # Bing
+Allow: /
+User-agent: Amazonbot       # Alexa
+Allow: /
+User-agent: Grok            # xAI Grok
+Allow: /
+
+# Blokiranje nepoželjnih botova
+User-agent: MJ12bot
 Disallow: /
-User-agent: EvilScraper
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
 Disallow: /
 
-# Empêcher l'exploration des fichiers sensibles
-Disallow: /config/
-Disallow: /backup/
+# Sitemapovi za maksimalnu vidljivost
+Sitemap: https://clairvoyancemedium.github.io/Kako-brzo-pronaci-ljubav.github.io/sitemap.xml
+Sitemap: https://clairvoyancemedium.github.io/Kako-brzo-pronaci-ljubav.github.io/sitemap-images.xml
+Host: clairvoyancemedium.github.io
